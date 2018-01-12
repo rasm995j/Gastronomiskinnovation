@@ -1,0 +1,388 @@
+@font-face { font-family: segan;  src: url(../fonts/Segan.ttf); };
+
+body {
+  margin: 0;
+}
+///  HEADER SECTION ///
+header {
+  background: rgba(20, 30, 54, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0 50px 0 0;
+  padding: 0;
+  height: 100px;
+}
+
+header ul li {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.logo {
+  padding: 10px 0 0 10px;
+  width: 250px;
+  height: 92px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+/////////////////////////////
+/// Shared selectors ///
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/////////////////////////////
+
+/// Welcome section ///
+
+.welcome {
+  background: url(../images/welcome-background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeContent {
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeHeadline {
+  font-family: "Segoe UI Historic", sans-serif;
+  font-size: 100px;
+  margin: 0;
+  color: white;
+}
+
+#gastronomic {
+  font-family: Segan, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+  margin: 0;
+}
+
+.underline {
+  width: 550px;
+  color: #e8e8e8;
+}
+
+#lookaround {
+  font-family: Segan, sans-serif;
+  text-transform: uppercase;
+  margin: 5px 0 0 0;
+  font-size: 26px;
+  color: #e8e8e8;
+}
+
+///////////////////////
+/// Health section ///
+
+.health {
+  height: 100vh;
+  display: flex;
+  background-color: lightgray;
+}
+
+#health1Content1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#health1Content1 h2 {
+  font-family: "segoe UI", Arial, sans-serif;
+  font-size: 40px;
+  padding: 0 5%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.img {
+  width: auto;
+  height: 20%;
+}
+
+#health1Content1 p {
+  font-family: Segan, sans-serif;
+  text-align: center;
+  padding: 0 10%;
+}
+
+#health1Content2 {
+  width: 60%
+}
+
+.healthImg {
+  width: 100%;
+  height: 100%;
+}
+
+.healthUnderline {
+  width: 100px;
+  border-radius: 30%;
+  background-color: #b83964;
+  color: #b83964;
+}
+
+#health2Content2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#health2Content2 h2 {
+  font-family: "segoe UI", Arial, sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#health2Content2 p {
+  font-family: Segan, sans-serif;
+  text-align: center;
+  padding: 0 10%;
+}
+
+#health2Content1 {
+  width: 60%
+}
+
+#health3Content1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#health3Content1 h2 {
+  font-family: "segoe UI", Arial, sans-serif;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#health3Content1 p {
+  font-family: Segan, sans-serif;
+  text-align: center;
+  padding: 0 10%;
+}
+
+#health3Content2 {
+  width: 60%
+}
+
+///////////////////////
+/// Recipe section ///
+
+.recipes {
+  background: url(../images/recipe-background.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  margin-top: -59px;
+}
+
+.recipeHeadline {
+  font-family: "Segoe UI Historic", Arial, sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipeUnderline {
+  width: 300px;
+  background-color: #b83964;
+  color: #b83964;
+  margin-top: -10px;
+}
+
+.recipes h3, .recipes p {
+  display: flex;
+  justify-content: center;
+  font-family: Segan, sans-serif;
+}
+
+.recipes h3 {
+  text-transform: uppercase;
+  color: crimson;
+  font-size: 23px;
+}
+
+.recipes p {
+  text-align: center;
+  font-size: 22px;
+}
+
+#pictureMenu {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+#pictureMenu img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 0 30px;
+}
+
+#linkToRecipes {
+  font-family: "Segoe UI Historic", sans-serif;
+  font-weight: bold;
+}
+
+///////////////////////
+/// Enviroment section ///
+
+.enviroment {
+  height: 100vh;
+  background-color: #e7e7e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.enviroment p {
+  text-align: center;
+  font-family: Segan, sans-serif;
+  font-size: 22px;
+}
+
+.enviromentHeadline {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI Historic", Arial, sans-serif;
+  font-size: 70px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.enviromentUnderline {
+  width: 350px;
+  background-color: #b83964;
+  color: #b83964;
+}
+
+#enviroPictureMenu {
+  display: flex;
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+}
+
+#enviroPictureMenu img {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  padding: 0 30px;
+}
+
+.textOntop p {
+  text-align: center;
+  background: rgba(219, 215, 216, 0.5);
+  margin: -50px 20% 0 20%;
+  padding: 20px 5%;
+  z-index: 1000;
+  position: relative;
+}
+
+///////////////////////
+
+.footer {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #272727;
+  color: white;
+  display: flex;
+}
+
+.footerDiv1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerDiv1 img {
+  padding-right: 70px;
+}
+
+.footerDiv2 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerDiv2 p {
+  margin-top: 0;
+}
+
+.footerDiv3 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerDiv1, .footerDiv2, .footerDiv3 {
+  height: 200px;
+}
+
+#facebookIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.copyrights {
+  background-color: #171717;
+  color: #dcdcdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica, Arial, sans-serif;
+}

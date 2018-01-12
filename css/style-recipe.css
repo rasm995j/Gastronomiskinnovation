@@ -1,0 +1,102 @@
+body {
+  background: url(../images/recipe-page.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0; }
+
+header {
+  background: rgba(20, 30, 54, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0 50px 0 0;
+  padding: 0;
+  height: 100px; }
+
+header ul li {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.logo {
+  padding: 10px 0 0 10px;
+  width: 250px;
+  height: 92px; }
+
+header a {
+  text-decoration: none;
+  color: white; }
+
+.content {
+  grid-area: content;
+  justify-self: center;
+  padding-top: 110px; }
+
+.RESIPES {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 15% 10% auto 10% 15%;
+  grid-template-rows: repeat(1, auto);
+  grid-template-areas: "nothing1 button1 content button2 nothing2"; }
+
+.mover {
+  padding-top: 110px; }
+
+.mySlides h1 {
+  display: flex;
+  justify-content: center; }
+
+.ImgRight {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.mySlides img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  padding-right: 100px; }
+
+.mySlides ul {
+  padding-left: 100px; }
+
+.mySlides p {
+  padding: 10px 20% 0 85px;
+  text-align: left; }
+
+.button1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: button1;
+  justify-self: center; }
+
+button {
+  cursor: pointer; }
+
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: button2;
+  justify-self: center; }
+
+.mySlides h1 {
+  font-family: Segan, sans-serif; }
+
+.mySlides li, .mySlides p {
+  font-family: Segan,sans-serif; }
+
+/*# sourceMappingURL=style-recipe.css.map */

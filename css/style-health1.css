@@ -1,0 +1,63 @@
+body {
+  background: url(../images/enviroimg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0; }
+
+header {
+  background: rgba(20, 30, 54, 0.5);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0 50px 0 0;
+  padding: 0;
+  height: 100px; }
+
+header ul li {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.logo {
+  padding: 10px 0 0 10px;
+  width: 250px;
+  height: 92px; }
+
+header a {
+  text-decoration: none;
+  color: white; }
+
+.better {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.backgroundColor {
+  margin: 150px 20% 0 20%;
+  background: rgba(183, 173, 172, 0.74); }
+
+.backgroundColor h1 {
+  padding: 20px 30px 0 30px;
+  font-family: "segoe UI", Arial, sans-serif;
+  color: white;
+  font-size: 26px; }
+
+.backgroundColor p {
+  padding: 20px 30px;
+  font-family: "Segoe UI Historic", sans-serif;
+  color: white;
+  font-size: 22px; }
+
+/*# sourceMappingURL=style-health1.css.map */
