@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style-recipe.css">
 </head>
 <body>
+
+<!-- The header -->
 <header>
     <a href="./index.html#welcome"><img class="logo" src="images/logo.png" alt="logo"/></a>
     <ul>
@@ -17,9 +19,11 @@
     </ul>
 </header>
 
-
+<!-- the recipes with buttons to next recipe -->
 <section class="RESIPES">
         <div class="content">
+
+            <!-- First recipe -->
             <div id="recipe1" class="mySlides">
                 <h1>Buffalo worms crunch for breakfest</h1>
                 <div class="ImgRight">
@@ -34,6 +38,8 @@
                     put the buffalo worms in and mix it all. Keep mixing till the worms are dry.<br>
                     you may add any kind of breakfast topping you want</p>
             </div>
+
+            <!-- Second recipe -->
             <div id="recipe2" class="mySlides">
                 <h1><b>Meatballs with wax larvae</b></h1>
                 <div class="ImgRight">
@@ -60,6 +66,8 @@
                     form balls. Roll them on a plate with some rapeseed oil  and then a bowl with rasp. Now add them to a baking tray
                     with baking paper and bake them for 15 minutes in a 200 degree preheated ovn.</p>
             </div>
+
+            <!-- Third Recipe -->
             <div id="recipe3" class="mySlides">
                 <h1><b>Cookies with buffalo worms</b></h1>
                 <div class="ImgRight">
@@ -83,6 +91,8 @@
                     The cookies should be a little dry in the middle.</p>
             </div>
         </div>
+
+        <!-- The buttons -->
         <div class="button1">
             <button class="button" onclick="plusDivs(-1)">&#10094;</button>
         </div>
@@ -90,6 +100,8 @@
             <button class="button" onclick="plusDivs(1)">&#10095;</button>
         </div>
 </section>
+
+<!-- JavaScript to make the recipes into a slideshow -->
 <script>
     var slideIndex = 1;
     showDivs(slideIndex);
